@@ -237,8 +237,4 @@ data2018CoDArLD
 data2018CoDNAFLD
 
 
-data2018CoDAll %>% 
-  replace_na(list(Group1 = "Unknown")) %>%
-  filter(Group1 == "Unknown")
-
 
